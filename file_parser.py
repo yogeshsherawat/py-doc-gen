@@ -19,7 +19,7 @@ class FileParser:
             content = file.read()
 
         parsed_ast = ASTParser.parse_code(content)
-        methods_code_dict = ASTParser.get_class_methods_code(parsed_ast)
+        methods_code_dict = ASTParser.get_methods_code(parsed_ast)
 
         fn_to_data_dict = {key: {'filepath': file_path, 'code': methods_code_dict[key]} for key in methods_code_dict}
         self.all_methods_code_dict.update(fn_to_data_dict)
