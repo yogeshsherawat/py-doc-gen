@@ -2,6 +2,8 @@
 
 ## Introduction
 This project provides a set of tools for parsing Python files within a specified directory, extracting class methods using Abstract Syntax Trees (AST), and generating documentation for these methods by leveraging the OpenAI API. It is designed to facilitate the automatic generation of detailed documentation for Python projects, improving the efficiency of the development process.
+![Py-Doc-Gen Logo](/logo.png "Py Doc Gen Logo")
+
 
 ## Table of Contents
 - [Installation](#installation)
